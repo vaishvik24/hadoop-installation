@@ -1,4 +1,4 @@
-hadoop configuration
+Hadoop configuration
 
 o run hadoop in local :
 $su - hadoopusr
