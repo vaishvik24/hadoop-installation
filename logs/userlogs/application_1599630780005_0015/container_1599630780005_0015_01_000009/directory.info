@@ -1,0 +1,24 @@
+ls -l:
+total 32
+-rw-r--r-- 1 hadoopusr hadoop  129 Sep  9 14:46 container_tokens
+-rwx------ 1 hadoopusr hadoop  693 Sep  9 14:46 default_container_executor_session.sh
+-rwx------ 1 hadoopusr hadoop  748 Sep  9 14:46 default_container_executor.sh
+lrwxrwxrwx 1 hadoopusr hadoop  115 Sep  9 14:46 job.jar -> /tmp/hadoop-hadoopusr/nm-local-dir/usercache/hadoopusr/appcache/application_1599630780005_0015/filecache/11/job.jar
+lrwxrwxrwx 1 hadoopusr hadoop  115 Sep  9 14:46 job.xml -> /tmp/hadoop-hadoopusr/nm-local-dir/usercache/hadoopusr/appcache/application_1599630780005_0015/filecache/13/job.xml
+-rwx------ 1 hadoopusr hadoop 5199 Sep  9 14:46 launch_container.sh
+drwx--x--- 2 hadoopusr hadoop 4096 Sep  9 14:46 tmp
+find -L . -maxdepth 5 -ls:
+ 13238875      4 drwx--x---   3 hadoopusr hadoop       4096 Sep  9 14:46 .
+ 13238897      8 -rwx------   1 hadoopusr hadoop       5199 Sep  9 14:46 ./launch_container.sh
+ 13238900      4 -rw-r--r--   1 hadoopusr hadoop         16 Sep  9 14:46 ./.default_container_executor_session.sh.crc
+ 13238879      4 -rw-r--r--   1 hadoopusr hadoop         12 Sep  9 14:46 ./.container_tokens.crc
+ 13238513      4 drwx------   2 hadoopusr hadoop       4096 Sep  9 14:46 ./job.jar
+ 13238517    312 -r-x------   1 hadoopusr hadoop     316534 Sep  9 14:46 ./job.jar/job.jar
+ 13238531    192 -r-x------   1 hadoopusr hadoop     193235 Sep  9 14:46 ./job.xml
+ 13238898      4 -rw-r--r--   1 hadoopusr hadoop         52 Sep  9 14:46 ./.launch_container.sh.crc
+ 13238901      4 -rwx------   1 hadoopusr hadoop        748 Sep  9 14:46 ./default_container_executor.sh
+ 13238899      4 -rwx------   1 hadoopusr hadoop        693 Sep  9 14:46 ./default_container_executor_session.sh
+ 13238902      4 -rw-r--r--   1 hadoopusr hadoop         16 Sep  9 14:46 ./.default_container_executor.sh.crc
+ 13238877      4 drwx--x---   2 hadoopusr hadoop       4096 Sep  9 14:46 ./tmp
+ 13238878      4 -rw-r--r--   1 hadoopusr hadoop        129 Sep  9 14:46 ./container_tokens
+broken symlinks(find -L . -maxdepth 5 -type l -ls):
