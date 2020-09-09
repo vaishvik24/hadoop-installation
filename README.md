@@ -17,11 +17,16 @@ If datanode is not running , then clear current from hadoop_tmp/hdfs/datanode/cu
 See output on localhost:8088 and localhost:9870. (UI based output)
 
 hadoopusr@vaishvik-Modern-15-A10RAS:/usr/local/hadoop/bin$ ./yarn jar /usr/local/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.1.jar pi 16 1000
+
+
 Run this from hadoop/bin folder to run pi estimate example of yarn application in your local PC.
 
+
 and u have two folders in usr/local folder where your hadoop is there.
-hadoop_tmp/hdfs/namenode
-hadoop_tmp/hdfs/datanode
+
+1. hadoop_tmp/hdfs/namenode
+
+2. hadoop_tmp/hdfs/datanode
 
 
 Some links :
