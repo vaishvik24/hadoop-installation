@@ -25,4 +25,4 @@ https://www.informit.com/articles/article.aspx?p=2190194&seqNum=3
 
 https://www.youtube.com/watch?v=beD69aAYCY4&ab_channel=OnlineLearningCenter
 
-http://cloudyrathor.com/hadoop-installation-configuration/ 
+http://cloudyrathor.com/hadoop-installation-configuration/  -- Most imp link to see which files needed to change.
