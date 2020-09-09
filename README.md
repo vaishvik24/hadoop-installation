@@ -1,10 +1,16 @@
 Hadoop configuration
 
-o run hadoop in local :
+To run hadoop in local :
+
 $su - hadoopusr
+
 $ start-all.sh  // to start all
+
 $ stop-all.sh // to stop aa
+
 $ jps // to see all running
+
+
 
 If datanode is not running , then clear current from hadoop_tmp/hdfs/datanode/current file from there.
 
